@@ -624,21 +624,25 @@ body {
     margin-left: 505px; }
   .calendar-sun div:first-child {
     margin-left: 606px; }
-  .calendar-28 div:nth-child(29)::after {
+  .calendar-28 div:nth-child(n + 29)::after {
     display: none; }
-  .calendar-28 div:nth-child(30)::after {
+  .calendar-28 div:nth-child(n + 30)::after {
     display: none; }
-  .calendar-28 div:nth-child(31)::after {
+  .calendar-28 div:nth-child(n + 31)::after {
     display: none; }
-  .calendar-29 div:nth-child(30)::after {
+  .calendar-28 div:nth-child(n + 32)::after {
     display: none; }
-  .calendar-29 div:nth-child(31)::after {
+  .calendar-29 div:nth-child(n + 30)::after {
     display: none; }
-  .calendar-30 div:nth-child(31)::after {
+  .calendar-29 div:nth-child(n + 31)::after {
     display: none; }
-  .calendar-31 div:nth-child(32)::after {
+  .calendar-29 div:nth-child(n + 32)::after {
     display: none; }
-  .calendar-31 div:nth-child(31)::after {
+  .calendar-30 div:nth-child(n + 31)::after {
+    display: none; }
+  .calendar-30 div:nth-child(n + 32)::after {
+    display: none; }
+  .calendar-31 div:nth-child(n + 32)::after {
     display: none; }
   .calendar div:nth-child(7n + 1)::after {
     margin-right: 0; }
