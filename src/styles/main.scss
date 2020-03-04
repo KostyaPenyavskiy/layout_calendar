@@ -41,8 +41,8 @@ body {
   }
   
   @each $days in $days-in-month {
-    @for $day from $days + 1 through 31 {
-      &-#{$days} div:nth-child(#{$day})::after {
+    @for $day from $days through 31 {
+      &-#{$days} div:nth-child(n + #{$day + 1})::after {
         display: none;
       }
     }
